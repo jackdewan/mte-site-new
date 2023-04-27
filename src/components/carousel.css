@@ -1,0 +1,44 @@
+.animate-right {
+  position: relative;
+  animation: animateright 0.4s;
+}
+@keyframes animateright {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+.first-text-animate-right {
+  position: relative;
+  animation: animateright 1s;
+}
+@keyframes animateright {
+  from {
+    right: -1000px;
+    opacity: 0.5;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+.second-text-animate-right {
+  position: relative;
+  animation: animateright 1.3s;
+}
+@keyframes animateright {
+  from {
+    right: -5000px;
+    opacity: 0;
+  }
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
